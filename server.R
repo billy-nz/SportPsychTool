@@ -371,7 +371,7 @@ shinyServer(function(input, output, session) {
           easyClose = FALSE,
           fade = FALSE,
           tagList("Download: ", actionLink(inputId = "download", label = "sample dataset",
-                                           onclick ="location.href='https://github.com/billy-nz/EchoNLP/blob/master/data/SampleData.xlsx';")),
+                                           onclick ="location.href='https://github.com/billy-nz/SportPsychTool/blob/master/data/SampleData.xlsx?raw=true';")),
           footer = NULL
         )))
   }
